@@ -1,0 +1,7 @@
+interface:
+  display_name: "Brandbook Directions"
+  short_description: "Three routes, then a selected brandbook"
+  default_prompt: "Use $brandbook-directions to turn a brief into 3 directions and a selected brandbook system."
+
+policy:
+  allow_implicit_invocation: true

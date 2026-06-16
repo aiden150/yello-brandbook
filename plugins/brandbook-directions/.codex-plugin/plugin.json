@@ -1,0 +1,27 @@
+{
+  "name": "brandbook-directions",
+  "version": "1.0.0",
+  "description": "A Codex plugin for generating brandbooks that always start with three directions and then expand the selected route.",
+  "author": {
+    "name": "Aiden Kim"
+  },
+  "interface": {
+    "displayName": "Brandbook Directions",
+    "shortDescription": "Generate 3 routes, then a selected brandbook",
+    "longDescription": "A reusable brandbook workflow for turning a brief into three distinct visual directions, then translating the chosen route into a publish-ready brand system.",
+    "developerName": "Aiden Kim",
+    "category": "Design",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Turn this brief into 3 distinct brand directions.",
+      "Select the strongest route and expand the brandbook.",
+      "Build a publish-ready brand system from these references."
+    ],
+    "brandColor": "#ffbf26",
+    "screenshots": [
+      "./assets/screenshot1.png",
+      "./assets/screenshot2.png",
+      "./assets/screenshot3.png"
+    ]
+  }
+}
